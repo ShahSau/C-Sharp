@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{486FB2DE-4743-46CA-B32D-074F9EC4C8B2}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Resume_Template/Index.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Resume_Template/Pages/Index.cshtml">
     <Files>
       <File FileName="Resume_Template/Pages/Index.cshtml" Line="25" Column="23" />
       <File FileName="Resume_Template/Index.cshtml.cs" Line="1" Column="1" />
@@ -10,8 +10,9 @@
           <Node name="Resume_Template" expanded="True">
             <Node name="Resume_Template" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True" />
-              <Node name="Index.cshtml.cs" selected="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
