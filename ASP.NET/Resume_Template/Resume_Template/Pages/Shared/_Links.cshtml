@@ -1,0 +1,12 @@
+﻿<!-- _Links.cshtml -->
+@model string
+if(ViewData["Title"] == "Home"){
+<a href="https://www.linkedin.com/@Model"> Linkedin </a>
+}
+else if(ViewData["Title"] == "Projects"){
+<a href="https://github.com/@Model"> Github </a>
+}
+
+<!-- Create partial below -->
+
+<a class="nav-link text-dark" asp-page="Projects">Projects</a>
